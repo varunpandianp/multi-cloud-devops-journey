@@ -75,7 +75,7 @@ My focus is not only on learning individual tools, but on understanding how they
 | Linux          | 🔄 In Progress |
 | Networking     | 🔄 In Progress |
 | Git & GitHub   | 🔄 In Progress |
-| Maven          | 🔄 In Progress |
+| Maven          | ⏳ Upcoming |
 | Jenkins        | ⏳ Upcoming     |
 | GitHub Actions | ⏳ Upcoming     |
 | Ansible        | ⏳ Upcoming     |
