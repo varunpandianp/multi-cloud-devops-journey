@@ -4,7 +4,7 @@ DevOps Fundamentals — Learning Notes
 
 Date: 25 August 2026
 
-1. DevOps Fundamentals
+**1. DevOps Fundamentals**
 
 Today I learned about the overall DevOps ecosystem and the purpose of different tools used throughout the software development and delivery lifecycle.
 
@@ -16,7 +16,7 @@ Ansible — Configuration management and automation
 
 The main idea is that different tools solve different problems across the software delivery lifecycle.
 
-2. SDLC and Agile
+**2. SDLC and Agile**
 
 Learned about the Software Development Life Cycle (SDLC) and the Agile development model.
 
@@ -35,7 +35,7 @@ Agile
 
 Agile is an iterative approach to software development where work is divided into smaller increments and delivered continuously.
 
-Traditional Development vs DevOps
+**Traditional Development vs DevOps**
 
 I learned that DevOps extends the development process by bringing development and operations closer together.
 
@@ -49,7 +49,7 @@ Continuous Testing
 Infrastructure as Code
 Monitoring and feedback
 
-3. Infrastructure as Code — IaC
+**3. Infrastructure as Code — IaC**
 
 Learned the concept of Infrastructure as Code (IaC).
 
@@ -73,7 +73,7 @@ AWS Infrastructure
 
 Terraform is one of the important IaC tools I am learning for DevOps.
 
-4. SaaS and PaaS
+**4. SaaS and PaaS**
 
 Learned the basics of cloud service models:
 
@@ -89,7 +89,7 @@ A platform is provided so developers can deploy applications without managing th
 
 The cloud provider manages much of the infrastructure and platform.
 
-5. Web Server and Application Server
+**5. Web Server and Application Server**
 
 Learned the difference between a Web Server and an Application Server.
 
@@ -110,8 +110,8 @@ Examples include application runtimes such as:
 Tomcat for Java applications
 Gunicorn/Uvicorn commonly used with Python applications
 
-6. Reverse Proxy and Forward Proxy
-   Forward Proxy
+**6. Reverse Proxy and Forward Proxy
+   Forward Proxy**
 
 A forward proxy sits between a client and the internet.
 
@@ -161,7 +161,8 @@ Testing
 Deployment
 ↓
 Maintenance
-DevOps Life Cycle
+
+_**DevOps Life Cycle**_
 
 DevOps extends the traditional development process by continuously connecting development, operations, automation, deployment and monitoring.
 
@@ -183,7 +184,7 @@ DevOps extends the traditional development process by continuously connecting de
           ↓
        FEEDBACK
           ↺
-Example DevOps Toolchain
+**Example DevOps Toolchain**
 
 A typical application delivery workflow can look like:
 
@@ -222,7 +223,8 @@ Deploy
 Prometheus + Grafana
 ↓
 Monitor & Feedback
-Multi-Cloud DevOps
+
+**Multi-Cloud DevOps**
 
 As part of my Multi-Cloud DevOps Journey, I am also learning how DevOps practices can be applied across multiple cloud platforms.
 
