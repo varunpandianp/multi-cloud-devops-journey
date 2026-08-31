@@ -61,3 +61,15 @@ Browser → OS → Recursive Resolver
 
 TTL determines how long a DNS answer can be cached.
 
+28-08-2029
+Learning Log — 28-08-2026
+
+Topics Covered
+
+Operating System (OS) Basics
+
+Linux File System
+
+Linux Directories
+
+Basic Linux Commands
