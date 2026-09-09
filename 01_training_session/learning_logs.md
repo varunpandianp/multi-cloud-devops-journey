@@ -19,3 +19,12 @@
 - Practised **essential Linux commands** for navigation, file management, searching, reading logs, processes, resources and services.
 - Learned **Linux pipes, redirection and command-line workflow**, including `grep`, `find`, `tail -f` and command composition.
 - Learned basic **Linux troubleshooting** using `systemctl`, `journalctl`, `df`, `free`, `top` and understood their importance in DevOps/SRE environments.
+
+## 📅 02-09-2026 — Learning Progress
+
+### 🧠 What I Learned
+
+- Learned **Linux users, groups, sudo and user management**, including UID, GID and important account files such as `/etc/passwd`, `/etc/group` and `/etc/sudoers`.
+- Learned **Linux file permissions and ownership** — read/write/execute, `chmod`, numeric permissions, `chown`, `chgrp`, `umask` and special permissions.
+- Learned **SSH and key-based authentication**, including SSH keys, `authorized_keys`, `scp`, `rsync`, SSH hardening and troubleshooting.
+- Learned the fundamentals of the **vi/vim editor** and essential commands for editing files directly on Linux servers.
