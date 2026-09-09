@@ -122,7 +122,8 @@ are different paths.
 #         → Root user
 ~         → Current user's home directory
 Commands and filenames are case-sensitive.
-7. Navigation Commands
+
+**7. Navigation Commands**
    pwd
    Shows current directory.
    ls
@@ -150,7 +151,8 @@ Commands and filenames are case-sensitive.
    Relative path:
    logs
    Depends on your current location.
-8. Creating, Copying & Removing
+
+**8. Creating, Copying & Removing**
    touch file.txt
    Create an empty file.
    mkdir project
@@ -173,7 +175,8 @@ Commands and filenames are case-sensitive.
    Linux has no recycle bin for rm.
    Be especially careful with:
    rm -rf
-9. Reading Files & Logs ⭐
+
+**9. Reading Files & Logs ⭐**
    cat file.txt
    Display complete file.
    less file.txt
@@ -191,7 +194,8 @@ Commands and filenames are case-sensitive.
    DevOps important command
    tail -f /var/log/syslog
    Used to watch logs while troubleshooting.
-10. Search, Pipes & Redirection ⭐
+
+**10. Search, Pipes & Redirection ⭐**
     Search
     grep "error" app.log
     Search for error.
@@ -224,7 +228,8 @@ Commands and filenames are case-sensitive.
     Redirect errors.
     cmd > all.txt 2>&1
     Redirect output + errors.
-11. Processes, Resources & Services
+
+**11. Processes, Resources & Services**
     Processes
     ps aux
     View running processes.
@@ -243,7 +248,8 @@ Commands and filenames are case-sensitive.
     Check memory.
     uptime
     System uptime/load information.
-12. Services with systemctl
+
+**12. Services with systemctl**
     Example: Nginx
     systemctl status nginx
     Check service.
@@ -265,7 +271,8 @@ Commands and filenames are case-sensitive.
 enable
 ↓
 Starts service automatically after reboot
-13. Basic Troubleshooting Flow ⭐
+
+**13. Basic Troubleshooting Flow ⭐**
     The slide gives a very useful first-line troubleshooting sequence:
     Is the service running?
     ↓
