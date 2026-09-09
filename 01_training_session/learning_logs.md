@@ -11,4 +11,11 @@
   CI/CD = Development → Operations automation bridge
 
 **01-09-2026**
+## 📅 01-09-2026 — Learning Progress
 
+### 🧠 What I Learned
+
+- Learned **Linux fundamentals** — Linux architecture, kernel, shell, distributions and filesystem hierarchy.
+- Practised **essential Linux commands** for navigation, file management, searching, reading logs, processes, resources and services.
+- Learned **Linux pipes, redirection and command-line workflow**, including `grep`, `find`, `tail -f` and command composition.
+- Learned basic **Linux troubleshooting** using `systemctl`, `journalctl`, `df`, `free`, `top` and understood their importance in DevOps/SRE environments.
