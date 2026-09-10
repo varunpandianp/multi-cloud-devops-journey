@@ -28,3 +28,4 @@
 - Learned **Linux file permissions and ownership** — read/write/execute, `chmod`, numeric permissions, `chown`, `chgrp`, `umask` and special permissions.
 - Learned **SSH and key-based authentication**, including SSH keys, `authorized_keys`, `scp`, `rsync`, SSH hardening and troubleshooting.
 - Learned the fundamentals of the **vi/vim editor** and essential commands for editing files directly on Linux servers.
+
