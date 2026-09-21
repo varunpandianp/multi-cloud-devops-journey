@@ -20,3 +20,24 @@
 
 Learned the fundamentals of Jenkins and understood how Jenkins fits into a real-world CI/CD pipeline.
 
+## Learning Log - Jenkins Controller & Agent
+
+**Session Date:** 14-09-2026  
+**Study Date:** 21-09-2026
+
+### Topics Covered
+
+- Learned Jenkins Controller and Agent architecture.
+- Understood the difference between Controller and Agent.
+- Learned that Agents execute build, test, and deployment tasks.
+- Understood that an Agent can be a separate EC2 instance, VM, physical server, container, or Kubernetes pod.
+- Learned how the Controller assigns workloads to Agents.
+- Understood the use of multiple Agents for distributing CI/CD workloads.
+- Learned about Agent labels and different Agent capabilities.
+- Understood static and dynamic Jenkins Agents.
+- Learned the AWS example of using separate EC2 instances as Jenkins Agents.
+
+### Progress
+
+Understood how Jenkins Controller manages and distributes CI/CD workloads to Jenkins Agents.
+
