@@ -41,3 +41,21 @@ Learned the fundamentals of Jenkins and understood how Jenkins fits into a real-
 
 Understood how Jenkins Controller manages and distributes CI/CD workloads to Jenkins Agents.
 
+## Learning Log - Jenkins Pipeline as Code
+
+**Session Date:** 14-09-2026  
+**Study Date:** 22-09-2026
+
+### Topics Covered
+
+- Learned Pipeline as Code in Jenkins.
+- Understood the purpose of the Jenkinsfile.
+- Learned how Jenkinsfile is stored and managed in Git.
+- Understood the difference between Freestyle Jobs and Pipeline as Code.
+- Learned Build as Code and the role of `pom.xml` in Maven.
+- Understood how Jenkinsfile defines the CI/CD workflow.
+- Learned the benefits of version-controlled pipeline configuration.
+
+### Progress
+
+Understood how Jenkins pipelines can be defined as code using a Jenkinsfile and managed through Git.
