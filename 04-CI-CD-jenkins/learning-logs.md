@@ -43,7 +43,7 @@ Understood how Jenkins Controller manages and distributes CI/CD workloads to Jen
 
 ## Learning Log - Jenkins Pipeline as Code
 
-**Session Date:** 14-09-2026  
+**Session Date:** 15-09-2026  
 **Study Date:** 22-09-2026
 
 ### Topics Covered
@@ -59,3 +59,51 @@ Understood how Jenkins Controller manages and distributes CI/CD workloads to Jen
 ### Progress
 
 Understood how Jenkins pipelines can be defined as code using a Jenkinsfile and managed through Git.
+
+## Learning Log - Jenkins Session 2 controller agent architecture 
+
+**Session Date:** 17-09-2026  
+**Study Date:** 23-09-2026
+
+### Topics Covered
+
+- Learned Jenkins Pipeline vocabulary: pipeline, agent, stage, steps, workspace, and post.
+- Learned Declarative Pipeline and its structure.
+- Learned important Declarative directives such as `agent`, `tools`, `environment`, `options`, `parameters`, `triggers`, `when`, and `post`.
+- Learned Scripted Pipeline and Groovy-based syntax.
+- Understood the difference between Declarative and Scripted Pipelines.
+- Learned Multibranch Pipelines and SCM integration.
+- Learned how webhooks trigger Jenkins builds.
+- Learned Jenkins Controller and Agent architecture.
+- Learned different Agent connection methods such as SSH, inbound agents, and Docker/cloud agents.
+- Learned how to configure Agent nodes, labels, and executors.
+- Learned how to target a specific Agent using labels in a Jenkinsfile.
+- Practiced the Session 2 pipeline and agent concepts.
+
+### Progress
+
+Understood how Jenkins uses Pipeline as Code and distributed Controller-Agent architecture to execute CI/CD workloads across different machines.
+
+## Learning Log - Jenkins Session 3
+
+**Session Date:** 18-09-2026  
+**Study Date:** 24-09-2026
+
+### Topics Covered
+
+- Learned Tomcat setup and automated deployment using Jenkins.
+- Learned how Jenkins deploys a WAR file to Tomcat.
+- Learned `manager-script` role and dedicated Tomcat deployer credentials.
+- Learned different deployment methods: plugin, `curl`, and Maven Cargo.
+- Learned build triggers: Webhook, Poll SCM, Cron, Upstream/Downstream, Remote Trigger, and Manual Trigger.
+- Learned Jenkins email notifications and SMTP configuration.
+- Learned Jenkins security, authentication, authorization, and credentials.
+- Learned Jenkins backup using `JENKINS_HOME`.
+- Learned Jenkins housekeeping, monitoring, and updates.
+- Learned Jenkins Configuration as Code (JCasC).
+- Learned common Jenkins troubleshooting problems and solutions.
+- Practiced the complete CI/CD flow from Git commit to Tomcat deployment and verification.
+
+### Progress
+
+Learned how to extend a Jenkins pipeline from build and test to automated deployment, triggering, notifications, and Jenkins administration.
