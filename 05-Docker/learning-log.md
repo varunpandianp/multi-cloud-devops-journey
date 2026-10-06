@@ -91,3 +91,39 @@ Orchestration
       ↓
 Scaling + Self-Healing + Networking + Deployments
 ```
+
+
+## Session Learning Log 28-9-2026
+ 
+## study notes update date Date: 06-10-2026
+
+Today I learned:
+
+- Multi-stage Docker builds
+- Why multi-stage builds are required
+- Single-stage vs multi-stage builds
+- Build stage and runtime stage
+- Multi-stage build architecture
+- `FROM ... AS build`
+- `COPY --from`
+- Alpine Linux
+- Smaller production images
+- Security benefits of multi-stage builds
+- Docker `ENTRYPOINT`
+- Docker `CMD`
+- Difference between ENTRYPOINT and CMD
+- How CMD can be overridden
+- Docker container writable layer
+- Docker persistent storage
+- Docker volumes
+- Bind mounts
+- tmpfs mounts
+- Volume use cases
+- Bind mount use cases
+- tmpfs use cases
+- `-v` syntax
+- `--mount` syntax
+- Read-only mounts
+- Volume sharing
+- Volume backup concepts
+- Docker storage production best practices
