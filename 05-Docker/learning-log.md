@@ -127,3 +127,45 @@ Today I learned:
 - Volume sharing
 - Volume backup concepts
 - Docker storage production best practices
+
+# Learning Log — Docker Networking & Docker Swarm
+## session date -29-09-2026 
+**study Date:** 07-10-2026
+
+## Topics Learned
+
+- Learned the fundamentals of Docker networking and how containers communicate with each other.
+- Learned how containers connected to the same user-defined network can communicate using container/service names.
+- Learned about Docker's internal DNS and service discovery.
+- Practiced important Docker network commands such as `docker network ls`, `docker network create`, `docker network inspect`, `docker network connect`, and `docker network disconnect`.
+- Learned the major Docker network types/drivers: Bridge, Host, None, Overlay, and Macvlan.
+- Learned when to use Bridge networking for single-host container communication.
+- Learned how Host networking uses the host's networking stack.
+- Learned how the None network provides isolated networking.
+- Learned how Overlay networking enables communication across multiple Docker hosts.
+- Learned the purpose of Macvlan networking and how containers can have their own MAC/IP identity on the physical network.
+- Learned the difference between Docker networking and port publishing.
+- Learned how to segment an application using multiple Docker networks.
+- Learned why network segmentation improves isolation, security, and control over service-to-service communication.
+- Learned the difference between stateless and stateful applications.
+- Learned why stateless applications are easier to scale and replace.
+- Learned how stateful applications require persistent storage and careful backup/recovery planning.
+- Learned the importance of Docker volumes, bind mounts, and tmpfs for different storage requirements.
+- Learned that data stored only in a container's writable layer can be lost when the container is removed.
+- Learned the concept that containers should be treated as disposable and persistent data should be stored outside the container lifecycle.
+- Learned that a major limitation of basic Docker host management is the single-host boundary.
+- Learned why container orchestration is required when managing containers across multiple hosts.
+- Learned what Docker Swarm is and why it is used for container orchestration.
+- Learned the difference between Swarm Manager and Worker nodes.
+- Learned the concept of desired state in Docker Swarm.
+- Learned how Swarm maintains the required number of service replicas.
+- Learned about Swarm services and scaling replicas.
+- Learned how Swarm provides self-healing by replacing failed tasks.
+- Learned how Swarm uses overlay networking for multi-host service communication.
+- Learned about Swarm service discovery.
+- Learned the concept of rolling updates in Docker Swarm.
+- Understood the overall relationship between Docker containers, networking, storage, application state, multi-host deployment, and orchestration.
+
+## Key Takeaway
+
+Docker provides the foundation for running containers, networking provides communication and isolation, volumes provide persistent data, and Docker Swarm adds orchestration capabilities such as scaling, scheduling, self-healing, service discovery, and multi-host management.
